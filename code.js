@@ -1,6 +1,3 @@
-function myFunc() {
-  alert("You Clicked me");
-}
 function computerPlay() {
   let random = Math.floor(Math.random() * (2 + 1) + 1);
 
