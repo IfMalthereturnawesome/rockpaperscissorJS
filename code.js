@@ -65,7 +65,7 @@ function game() {
     if (i === 5 && computerScore > playerScore) {
       console.log(
         "Computer wins with: " +
-          "Playerscore: " +
+          "PlayerScore: " +
           playerScore +
           " ComputerScore: " +
           computerScore
@@ -74,7 +74,7 @@ function game() {
     } else if (computerScore < playerScore && i === 5) {
       console.log(
         "You win with the score: " +
-          "Playerscore: " +
+          "PlayerScore: " +
           playerScore +
           " ComputerScore: " +
           computerScore
